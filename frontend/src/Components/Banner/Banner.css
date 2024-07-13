@@ -1,0 +1,128 @@
+.banner{
+    background: linear-gradient(180deg, #feffaa, #e1ffea22 60%);
+    display: flex;
+    justify-content: center;
+    padding: 2em 0;
+}
+.banner-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 180px;
+    line-height: 1.1;
+}
+.banner-left h2{
+    color: #090909;
+    font-size: 26px;
+    font-weight: 600;
+}
+.banner-left p{
+    color: #090909;
+    font-size: 85px;
+    font-weight: 700;
+}
+.banner-latest-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 310px;
+    height: 70px;
+    border-radius: 75px;
+    margin-top: 30px;
+    background: #ff4141;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+}
+.banner-right img{
+    max-width: 40vw;
+}
+
+@media(max-width: 1280px){
+    .banner-left{
+       padding-left: 100px;
+    }
+    .banner-left h2{
+        font-size: 22px;
+     }
+     .banner-left p{
+        font-size: 60px;
+     }
+     .banner-latest-btn{
+        gap: 10px;
+        width: 250px;
+        height: 60px;
+        margin-top: 20px;
+        font-size: 18px;
+     }
+     .banner-right img{
+        width: 500px;
+     }
+
+
+}
+@media(max-width: 1024px){
+    .banner-left{
+       padding-left: 80px;
+    }
+    .banner-left h2{
+        font-size: 20px;
+     }
+     .banner-left p{
+        font-size: 50px;
+     }
+     .banner-latest-btn{
+        width: 220px;
+        height: 50px;
+        font-size: 16px;
+     }
+     .banner-right img{
+        width: 400px;
+     }
+
+
+}
+@media(max-width: 800px){
+    .banner-left{
+       padding-left: 30px;
+    }
+    .banner-left h2{
+        font-size: 16px;
+     }
+     .banner-left p{
+        font-size: 40px;
+     }
+     .banner-latest-btn{
+        width: 175px;
+        height:40px;
+        font-size: 13px;
+     }
+     .banner-right img{
+        width: 300px;
+     }
+}
+@media(max-width: 500px){
+    .banner{
+        flex-direction: column;
+    }
+    .banner-right{
+        display: none;
+    }
+    .banner-left{
+       padding-left: 30px;
+    }
+    .banner-left h2{
+        font-size: 18px;
+     }
+     .banner-left p{
+        font-size: 50px;
+     }
+     .banner-latest-btn{
+        width: 200px;
+        height:45px;
+        font-size: 14px;
+     }
+}

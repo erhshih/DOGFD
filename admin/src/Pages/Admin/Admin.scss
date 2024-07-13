@@ -1,0 +1,9 @@
+.admin{
+    display: flex;
+    background-color: rgb(240, 240, 240);
+}
+@media(max-width:800px){
+    .admin{
+        flex-direction: column;
+    }
+}
