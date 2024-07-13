@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/DOGFD/static/css/main.cd353d3b.css",
-    "main.js": "/DOGFD/static/js/main.427052fd.js",
+    "main.css": "/DOGFD/static/css/main.0c565ba0.css",
+    "main.js": "/DOGFD/static/js/main.0c020d98.js",
     "static/js/453.0297a6b4.chunk.js": "/DOGFD/static/js/453.0297a6b4.chunk.js",
     "static/media/banner_dog.png": "/DOGFD/static/media/banner_dog.8c132a71eeca11ca95e2.png",
     "static/media/product_1.png": "/DOGFD/static/media/product_1.b3f38d377e5e57cba2df.png",
@@ -13,14 +13,14 @@
     "static/media/banner_1.png": "/DOGFD/static/media/banner_1.40b028c9ae95aac69b6c.png",
     "static/media/banner_3.png": "/DOGFD/static/media/banner_3.a03812b3a434e63aa13f.png",
     "static/media/logo.png": "/DOGFD/static/media/logo.f09819ce0f2df25f9895.png",
-    "static/media/nav_dropdown.svg": "/DOGFD/static/media/nav_dropdown.4b26ad04c84b9405bbb95949ef19c1c7.svg",
     "index.html": "/DOGFD/index.html",
-    "main.cd353d3b.css.map": "/DOGFD/static/css/main.cd353d3b.css.map",
-    "main.427052fd.js.map": "/DOGFD/static/js/main.427052fd.js.map",
+    "static/media/nav_dropdown.svg": "/DOGFD/static/media/nav_dropdown.4b26ad04c84b9405bbb95949ef19c1c7.svg",
+    "main.0c565ba0.css.map": "/DOGFD/static/css/main.0c565ba0.css.map",
+    "main.0c020d98.js.map": "/DOGFD/static/js/main.0c020d98.js.map",
     "453.0297a6b4.chunk.js.map": "/DOGFD/static/js/453.0297a6b4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd353d3b.css",
-    "static/js/main.427052fd.js"
+    "static/css/main.0c565ba0.css",
+    "static/js/main.0c020d98.js"
   ]
 }
