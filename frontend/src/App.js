@@ -14,7 +14,7 @@ import health_banner from './Components/Assets/banner_3.png'
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename='/DOGFD'>
         <Navbar></Navbar>
         <Routes>
           <Route path='/' element={<Shop/>}/>
