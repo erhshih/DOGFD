@@ -4,7 +4,7 @@ import Item from '../Item/Item'
 const NewCollections = () => {
   const [new_collection, setNewCollection] = useState([])
   useEffect(()=>{
-    fetch('http://localhost:4000/newcollections')
+    fetch('https://dogfd.onrender.com/newcollections')
     .then(res=>res.json())
      .then(data=>setNewCollection(data))
   },[])

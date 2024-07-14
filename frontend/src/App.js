@@ -24,7 +24,7 @@ function App() {
               <ShopCategory 
                 banner={foods_banner} 
                 text={'FOODS'} 
-                background={"linear-gradient(to right, #fef486, #78c7ff)"} 
+                background={"linear-gradient(to right, #ffc766, #fffeed"} 
                 category="foods" 
               />
             }
@@ -35,7 +35,7 @@ function App() {
               <ShopCategory 
                 banner={toys_banner} 
                 text={'TOYS'} 
-                background={"linear-gradient(to right, #fef486, #78c7ff )"} 
+                background={"linear-gradient(to right, #78c7ff, #f9ffcf )"} 
                 category="toys"
               />
             }

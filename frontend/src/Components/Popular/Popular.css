@@ -21,6 +21,9 @@
     display: flex;
     gap: 30px;
 }
+.offers{
+    margin-top: 100px;
+}
 @media(max-width: 1280px){
     .popular{
         height: 70vh;
@@ -35,6 +38,9 @@
     .popular-item{
         gap: 20px;
         margin-top: 30px;
+    }
+    .offers{
+        margin-top: 80px;
     }
 
 }
@@ -78,5 +84,8 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 20px;
+    }
+    .offers{
+        margin-top: 150px;
     }
 }

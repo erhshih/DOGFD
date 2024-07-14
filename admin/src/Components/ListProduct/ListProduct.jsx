@@ -5,7 +5,7 @@ import cross_icon from '../../assets/cross_icon.png'
 const ListProduct = () => {
     const [allproducts, setAllProducts] = useState([])
     const fetchInfo = async()=>{
-        await fetch('http://localhost:4000/allproducts')
+        await fetch('https://dogfd.onrender.com/allproducts')
         .then((res)=>res.json())
         .then((data)=>{
             console.log('data', data)
@@ -19,7 +19,7 @@ const ListProduct = () => {
     },[])
 
     const remove_product = async(id)=>{
-        await fetch('http://localhost:4000/removeproduct',{
+        await fetch('https://dogfd.onrender.com/removeproduct',{
             method:'POST',
             headers:{
                 Accept:'application/json',
