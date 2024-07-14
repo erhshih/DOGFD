@@ -1,6 +1,6 @@
 import './App.css';
 import Navbar from './Components/Navbar/Navbar'
-import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Shop from './Pages/Shop'
 import ShopCategory from './Pages/ShopCategory'
 import Product from './Pages/Product'
@@ -14,10 +14,10 @@ import health_banner from './Components/Assets/banner_3.png'
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <Router basename="DOGFD">
         <Navbar></Navbar>
         <Routes>
-          <Route path='/DOGFD' element={<Shop/>}/>
+          <Route path='/' element={<Shop/>}/>
           <Route 
             path='/foods' 
             element={
@@ -30,7 +30,7 @@ function App() {
             }
           />
           <Route
-            path='/DOGFD/toyss' 
+            path='/toys' 
             element={
               <ShopCategory 
                 banner={toys_banner} 
@@ -58,7 +58,7 @@ function App() {
           <Route path='/login' element={<LoginSignup/>}/>
         </Routes>
         <Footer></Footer>
-      </BrowserRouter>
+      </Router>
     </div>
   );
 }
