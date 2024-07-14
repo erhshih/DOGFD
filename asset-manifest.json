@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/DOGFD/static/css/main.0c565ba0.css",
-    "main.js": "/DOGFD/static/js/main.0c020d98.js",
+    "main.js": "/DOGFD/static/js/main.0498b12c.js",
     "static/js/453.0297a6b4.chunk.js": "/DOGFD/static/js/453.0297a6b4.chunk.js",
     "static/media/banner_dog.png": "/DOGFD/static/media/banner_dog.8c132a71eeca11ca95e2.png",
     "static/media/product_1.png": "/DOGFD/static/media/product_1.b3f38d377e5e57cba2df.png",
@@ -16,11 +16,11 @@
     "index.html": "/DOGFD/index.html",
     "static/media/nav_dropdown.svg": "/DOGFD/static/media/nav_dropdown.4b26ad04c84b9405bbb95949ef19c1c7.svg",
     "main.0c565ba0.css.map": "/DOGFD/static/css/main.0c565ba0.css.map",
-    "main.0c020d98.js.map": "/DOGFD/static/js/main.0c020d98.js.map",
+    "main.0498b12c.js.map": "/DOGFD/static/js/main.0498b12c.js.map",
     "453.0297a6b4.chunk.js.map": "/DOGFD/static/js/453.0297a6b4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0c565ba0.css",
-    "static/js/main.0c020d98.js"
+    "static/js/main.0498b12c.js"
   ]
 }
