@@ -17,7 +17,7 @@ function App() {
       <BrowserRouter basename="/DOGFD">
         <Navbar></Navbar>
         <Routes>
-          <Route path='/' element={<Shop/>}/>
+          <Route path='/DOGFD' element={<Shop/>}/>
           <Route 
             path='/foods' 
             element={
