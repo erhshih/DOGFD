@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/DOGFD/static/css/main.0c565ba0.css",
-    "main.js": "/DOGFD/static/js/main.54de7568.js",
+    "main.css": "/DOGFD/static/css/main.5d789535.css",
+    "main.js": "/DOGFD/static/js/main.50fd8dbd.js",
     "static/js/453.0297a6b4.chunk.js": "/DOGFD/static/js/453.0297a6b4.chunk.js",
     "static/media/banner_dog.png": "/DOGFD/static/media/banner_dog.8c132a71eeca11ca95e2.png",
     "static/media/product_1.png": "/DOGFD/static/media/product_1.b3f38d377e5e57cba2df.png",
@@ -9,18 +9,18 @@
     "static/media/product_2.png": "/DOGFD/static/media/product_2.9affa286721e01f14c95.png",
     "static/media/product_4.png": "/DOGFD/static/media/product_4.8eed3a6e8feb36673a4a.png",
     "static/media/product_3.png": "/DOGFD/static/media/product_3.9672fe5ce65e3e7f505c.png",
+    "static/media/banner_3.png": "/DOGFD/static/media/banner_3.bfc1787e8671f51389a4.png",
     "static/media/banner_2.png": "/DOGFD/static/media/banner_2.1d5e507a7adf5fcef9bb.png",
-    "static/media/banner_1.png": "/DOGFD/static/media/banner_1.40b028c9ae95aac69b6c.png",
-    "static/media/banner_3.png": "/DOGFD/static/media/banner_3.a03812b3a434e63aa13f.png",
+    "static/media/banner_1.png": "/DOGFD/static/media/banner_1.6889f36cfe59aecff0f0.png",
     "static/media/logo.png": "/DOGFD/static/media/logo.f09819ce0f2df25f9895.png",
     "index.html": "/DOGFD/index.html",
     "static/media/nav_dropdown.svg": "/DOGFD/static/media/nav_dropdown.4b26ad04c84b9405bbb95949ef19c1c7.svg",
-    "main.0c565ba0.css.map": "/DOGFD/static/css/main.0c565ba0.css.map",
-    "main.54de7568.js.map": "/DOGFD/static/js/main.54de7568.js.map",
+    "main.5d789535.css.map": "/DOGFD/static/css/main.5d789535.css.map",
+    "main.50fd8dbd.js.map": "/DOGFD/static/js/main.50fd8dbd.js.map",
     "453.0297a6b4.chunk.js.map": "/DOGFD/static/js/453.0297a6b4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c565ba0.css",
-    "static/js/main.54de7568.js"
+    "static/css/main.5d789535.css",
+    "static/js/main.50fd8dbd.js"
   ]
 }
