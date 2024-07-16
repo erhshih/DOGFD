@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/DOGFD/static/css/main.900e0de6.css",
-    "main.js": "/DOGFD/static/js/main.fe493c76.js",
+    "main.css": "/DOGFD/static/css/main.a7962c95.css",
+    "main.js": "/DOGFD/static/js/main.ca8f9e3e.js",
     "static/js/453.0297a6b4.chunk.js": "/DOGFD/static/js/453.0297a6b4.chunk.js",
     "static/media/banner_dog.png": "/DOGFD/static/media/banner_dog.8c132a71eeca11ca95e2.png",
     "static/media/product_1.png": "/DOGFD/static/media/product_1.b3f38d377e5e57cba2df.png",
@@ -10,17 +10,23 @@
     "static/media/product_4.png": "/DOGFD/static/media/product_4.8eed3a6e8feb36673a4a.png",
     "static/media/product_3.png": "/DOGFD/static/media/product_3.9672fe5ce65e3e7f505c.png",
     "static/media/banner_3.png": "/DOGFD/static/media/banner_3.bfc1787e8671f51389a4.png",
+    "static/media/storeHealth.png": "/DOGFD/static/media/storeHealth.bfc1787e8671f51389a4.png",
     "static/media/banner_2.png": "/DOGFD/static/media/banner_2.1d5e507a7adf5fcef9bb.png",
+    "static/media/storeToys.png": "/DOGFD/static/media/storeToys.1d5e507a7adf5fcef9bb.png",
     "static/media/banner_1.png": "/DOGFD/static/media/banner_1.6889f36cfe59aecff0f0.png",
+    "static/media/storeFoods.png": "/DOGFD/static/media/storeFoods.6889f36cfe59aecff0f0.png",
     "static/media/logo.png": "/DOGFD/static/media/logo.f09819ce0f2df25f9895.png",
+    "static/media/logo_white.png": "/DOGFD/static/media/logo_white.52bfa6bbe2d73f70c96d.png",
     "index.html": "/DOGFD/index.html",
     "static/media/nav_dropdown.svg": "/DOGFD/static/media/nav_dropdown.4b26ad04c84b9405bbb95949ef19c1c7.svg",
-    "main.900e0de6.css.map": "/DOGFD/static/css/main.900e0de6.css.map",
-    "main.fe493c76.js.map": "/DOGFD/static/js/main.fe493c76.js.map",
+    "static/media/cross-svgrepo-com.svg": "/DOGFD/static/media/cross-svgrepo-com.2fd670158d6cd9a37dd5.svg",
+    "static/media/burger-menu-svgrepo-com.svg": "/DOGFD/static/media/burger-menu-svgrepo-com.3c3ea9d9c6f3d23c9309.svg",
+    "main.a7962c95.css.map": "/DOGFD/static/css/main.a7962c95.css.map",
+    "main.ca8f9e3e.js.map": "/DOGFD/static/js/main.ca8f9e3e.js.map",
     "453.0297a6b4.chunk.js.map": "/DOGFD/static/js/453.0297a6b4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.900e0de6.css",
-    "static/js/main.fe493c76.js"
+    "static/css/main.a7962c95.css",
+    "static/js/main.ca8f9e3e.js"
   ]
 }
