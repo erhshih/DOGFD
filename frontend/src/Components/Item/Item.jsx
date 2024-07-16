@@ -1,5 +1,5 @@
 import React from 'react'
-import './Item.css'
+import './Item.scss'
 import {Link} from 'react-router-dom'
 
 const Item = (props) => {

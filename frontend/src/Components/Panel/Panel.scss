@@ -1,0 +1,73 @@
+
+.hamburger-button {
+  margin-top: 0px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 3em;
+  height: 2em;
+  position: relative;
+  z-index: 10;
+  background-color: transparent;
+  background-image: url(../Assets/burger-menu-svgrepo-com.svg);
+  transform: scale(1.3);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  -webkit-tap-highlight-color: black;
+  &.open {
+    background-image: url(../Assets/cross-svgrepo-com.svg);
+  }
+}
+.wrap_menu_content {
+  max-width: 45vw;
+  background-color: #000000;
+  background-size: 117px 188px;
+  transition: all 0.4s cubic-bezier(0.42, 0, 0.34, 1.01);
+  position: fixed;
+  z-index: 5;
+  right: -100%;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 1em;
+  &.open {
+    visibility: visible;
+    width: 100%;
+    right: 0;
+    opacity: 1;
+  }
+  
+}
+.menu_list{
+  color: white;
+  font-size: 3em;
+  li{
+    color: #fff;
+    margin-bottom: 15px;
+  }
+}
+.logbtn{
+  font-size: 1em;
+  padding: .5em;
+  font-weight: bold;
+  cursor: pointer;
+}
+.logbtn:active{
+  background: #fff5b6;
+}
+@media(max-width:1280px){
+  .hamburger-button{
+    transform: scale(.7);
+  }
+  .wrap_menu_content {
+    max-width: 100vw;
+    font-size: .8em;
+  }
+}

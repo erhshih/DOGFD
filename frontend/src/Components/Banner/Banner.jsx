@@ -1,5 +1,5 @@
 import React from 'react'
-import './Banner.css'
+import './Banner.scss'
 import arrow_icon from '../Assets/arrow.png'
 import banner_dog from '../Assets/banner_dog.png'
 const Banner = () => {

@@ -4,15 +4,20 @@ import Popular from '../Components/Popular/Popular'
 import Offers from '../Components/Offers/Offers'
 import NewCollections from '../Components/NewCollections/NewCollections'
 import NewsLetter  from '../Components/NewsLetter/NewsLetter'
+import StoreMain  from '../Components/StoreMain/StoreMain'
+import StoreButton  from '../Components/StoreButton/StoreButton'
 
 const Shop = () => {
   return (
     <div>
-      <Banner></Banner>
+      <StoreMain></StoreMain>
       <Popular></Popular>
-      <Offers></Offers>
+      {/* <Offers></Offers> */}
       <NewCollections></NewCollections>
+      <StoreButton></StoreButton>
+      {/* <Banner></Banner> */}
       <NewsLetter></NewsLetter>
+
     </div>
   )
 }

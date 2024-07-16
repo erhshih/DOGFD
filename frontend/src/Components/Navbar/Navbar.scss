@@ -1,8 +1,12 @@
 .navbar{
     display: flex;
-    justify-content: space-around;
-    padding: 16px;
+    justify-content: space-between;
+    padding: 16px 45px;
     box-shadow: 0 1px 3px -2px black;
+    position: sticky; /* 使用 sticky 而不是 fixed */
+    top: 0; 
+    z-index: 2;
+    background-color: white;
 }
 .nav-logo{
     display: flex;
@@ -11,11 +15,11 @@
 }
 .nav-logo p{
     color: #050505;
-    font-size: 38px;
+    font-size: 30px;
     font-weight: 600;
 }
 .nav-logo img{
-    max-width: 65px;
+    max-width: 50px;
 } 
 .nav-menu{
     display: flex;
@@ -44,31 +48,20 @@
 .nav-login-cart{
     display: flex;
     align-items: center;
-    gap: 45px;
+    gap: 30px;
+    img{
+        max-width: 30px;
+    }
 }
-.nav-login-cart button{
-    width: 157px;
-    height: 58px;
-    outline: none;
-    border: 1px solid #050505;
-    border-radius: 75px;
-    color: #050505;
-    font-size: 20px;
-    font-weight: 500;
-    background: #fff;
-    cursor: pointer;
-}
-.nav-login-cart button:active{
-   background: #dddddd;
-}
+
 .nav-cart-count{
-    width: 22px;
-    height: 22px;
+    width: 20px;
+    height: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: -35px;
-    margin-left: -55px;
+    margin-left: -43px;
     border-radius: 11px;
     font-size: 14px;
     background: red;
@@ -111,11 +104,6 @@
     }
     .nav-menu{
         gap:25px;
-        font-size: 14px;
-    }
-    .nav-login-cart button{
-        width: 80px;
-        height: 35px;
         font-size: 14px;
     }
     .nav-login-cart img{
@@ -166,6 +154,9 @@
         top: 50px;
     }
     .nav-login-cart{
-        transform: scale(.8);
+        img{
+            transform: scale(.8);
+        }
+
     }
 }

@@ -4,12 +4,14 @@
     justify-content: center;
     align-items: center;
     gap: 50px;
+    background-color: #000;
+    padding-top: 2em;
     .footer-logo{
         display: flex;
         align-items: center;
-        gap: 50px;
+        gap: 10px;
         p{
-            color: #1c1c1c;
+            color: #ffffff;
             font-size: 46px;
             font-weight: 700;
         }
@@ -21,7 +23,7 @@
         display: flex;
         list-style: none;
         gap: 50px;
-        color: #252525;
+        color: #ffffff;
         font-size: 20px;
         li{
             cursor: pointer;
@@ -44,14 +46,18 @@
         gap: 30px;
         width: 100%;
         margin-bottom: 30px;
-        color: #1a1a1a;
+        color: #ffffff;
         font-size: 20px;
         hr{
            width: 80%;
            border: none;
            border-radius: 10px;
            height: 3px; 
-           background: #c7c7c7;
+           background: #ffffff;
+        }
+        a{
+            text-decoration: none;
+            color: #ffffff;
         }
     }
 }
