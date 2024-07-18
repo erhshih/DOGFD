@@ -147,7 +147,7 @@ const Question = ({ question, answer, index, expanded, toggleAccordion }) => {
           transition: 'max-height 0.2s ease-out'
         }}
       >
-        <p className="panel">A &nbsp; {answer}</p>
+        <p className="panel">{answer}</p>
       </div>
     </div>
   );
