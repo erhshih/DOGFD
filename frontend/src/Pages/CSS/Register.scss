@@ -978,36 +978,30 @@
 
   .register_top .text {
     display: flex;
+    flex-direction: column;
     width: 100%;
     /* border: 1px solid red; */
     justify-content: space-between;
+    padding-left: 1em;
+    padding-bottom: 1em;
   }
 
   .register_top .text_top {
-    font-size: 12vw;
+    font-size: 2em;
     font-weight: bolder;
-    writing-mode: vertical-lr;
     padding-right: 1%;
-    order: 2;
-    margin-bottom: -50%;
     -webkit-text-stroke: 1px rgb(255, 255, 255);
     text-shadow: 0.1em 0.1em rgb(56, 56, 56, 0.3);
     z-index: 10;
   }
 
   .register_top .text_bottom {
-    margin-top: 8em;
-    font-size: 6vw;
-    padding-left: 3%;
+    font-size: 1em;
     order: 1;
   }
 
   .register_top .text_bottom p:nth-child(1) {
-    font-size: 5vw;
-  }
-
-  .register_top .text_bottom p:nth-child(2) {
-    line-height: 0.2em;
+    font-size: 1em;
   }
 
   .register_top .photo {
