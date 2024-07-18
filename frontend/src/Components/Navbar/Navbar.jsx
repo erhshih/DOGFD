@@ -33,25 +33,25 @@ const Navbar = () => {
       <img className= 'nav-dropdown' onClick={dropdown_toggle} src={nav_dropdown} alt="" />
       <ul ref={menuRef} className='nav-menu'>
         <li onClick={() => setMenu("shop")}>
-          <Link style={{ textDecoration: 'none' }} to='/'>
+          <Link style={{ textDecoration: 'none' }} to='/' onClick={dropdown_toggle}>
             Shop
           </Link>
           {location.pathname === '/' && <hr />}
         </li>
         <li onClick={() => setMenu("foods")}>
-          <Link style={{ textDecoration: 'none' }} to='/foods'>
+          <Link style={{ textDecoration: 'none' }} to='/foods' onClick={dropdown_toggle}>
             Foods
           </Link>
           {location.pathname === '/foods' && <hr />}
         </li>
         <li onClick={() => setMenu("toys")}>
-          <Link style={{ textDecoration: 'none' }} to='/toys'>
+          <Link style={{ textDecoration: 'none' }} to='/toys' onClick={dropdown_toggle}>
             Toys
           </Link>
           {location.pathname === '/toys' && <hr />}
         </li>
         <li onClick={() => setMenu("health")}>
-          <Link style={{ textDecoration: 'none' }} to='/health'>
+          <Link style={{ textDecoration: 'none' }} to='/health' onClick={dropdown_toggle}>
             Health
           </Link>
           {location.pathname === '/health' && <hr />}
