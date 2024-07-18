@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/DOGFD/static/css/main.45c8b107.css",
-    "main.js": "/DOGFD/static/js/main.36eac0ec.js",
+    "main.js": "/DOGFD/static/js/main.58a77581.js",
     "static/js/453.0297a6b4.chunk.js": "/DOGFD/static/js/453.0297a6b4.chunk.js",
     "static/media/banner_dog.png": "/DOGFD/static/media/banner_dog.8c132a71eeca11ca95e2.png",
     "static/media/background.jpg": "/DOGFD/static/media/background.ddceb1b09ce451782cce.jpg",
@@ -25,11 +25,11 @@
     "static/media/cross-svgrepo-com.svg": "/DOGFD/static/media/cross-svgrepo-com.2fd670158d6cd9a37dd5.svg",
     "static/media/burger-menu-svgrepo-com.svg": "/DOGFD/static/media/burger-menu-svgrepo-com.3c3ea9d9c6f3d23c9309.svg",
     "main.45c8b107.css.map": "/DOGFD/static/css/main.45c8b107.css.map",
-    "main.36eac0ec.js.map": "/DOGFD/static/js/main.36eac0ec.js.map",
+    "main.58a77581.js.map": "/DOGFD/static/js/main.58a77581.js.map",
     "453.0297a6b4.chunk.js.map": "/DOGFD/static/js/453.0297a6b4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.45c8b107.css",
-    "static/js/main.36eac0ec.js"
+    "static/js/main.58a77581.js"
   ]
 }
