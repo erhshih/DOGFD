@@ -6,6 +6,9 @@ import Item from '../Components/Item/Item'
 
 const ShopCategory = (props) => {
     const  {all_product} = useContext(ShopContext)
+    const filteredProducts = props.category === 'all'
+    ? all_product
+    : all_product.filter(item => item.category === props.category);
     return (<>
         <div className='shop-category'>
             <div className="shopcategory-banner" style= {{background: props.background}}>
@@ -13,16 +16,13 @@ const ShopCategory = (props) => {
                 <img src={props.banner} alt="" />
             </div>
             <div className="shopcategory-indexSort">
-                <p>
-                    <span>Showing 1-12</span> out of 24 products
-                </p>
                 <div className="shopcategory-sort">
                     Sort by <img src={ dropdown_icon} alt="" />
                 </div>
             </div>
             <div className="shopcategory-products">
-                {all_product.map((item, i)=>{
-                if(props.category === item.category){
+                {filteredProducts.map((item, i)=>{
+                if(props.category === 'all' || props.category === item.category){
                 return (
                     <Item
                         key={i}

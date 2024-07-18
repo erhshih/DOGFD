@@ -58,6 +58,17 @@ function App() {
               />
             }
           />
+          <Route 
+            path='/allproducts' 
+            element={
+              <ShopCategory 
+                banner={null} 
+                text={'ALL PRODUCTS'} 
+                background={"linear-gradient(to right, #cccccc, #ffffff)"} 
+                category="all"
+              />
+            }
+          />
           <Route path='/product' element={<Product/>}>
             <Route path=':productId' element={<Product/>}/>
           </Route>

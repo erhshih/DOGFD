@@ -30,10 +30,12 @@ const StoreMain = () => {
             All Products
           </div>
           <div className="box" >
-            <div className="content">
-              <p>See More</p>
-              <i className="far fa-arrow-alt-circle-right"></i>
-            </div>
+            <Link style={{textDecoration: 'none'}} to='/allproducts'>
+              <div className="content">
+                <p>See More</p>
+                <i className="far fa-arrow-alt-circle-right"></i>
+              </div>
+            </Link>
           </div>
         </div>
 
