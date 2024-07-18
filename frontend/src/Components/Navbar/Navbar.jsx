@@ -31,7 +31,7 @@ const Navbar = () => {
         </div>  
       </Link>
       <img className= 'nav-dropdown' onClick={dropdown_toggle} src={nav_dropdown} alt="" />
-      <ul className='nav-menu'>
+      <ul ref={menuRef} className='nav-menu'>
         <li onClick={() => setMenu("shop")}>
           <Link style={{ textDecoration: 'none' }} to='/'>
             Shop
@@ -58,8 +58,11 @@ const Navbar = () => {
         </li>
       </ul>
       <div className='nav-login-cart'>
-        <Link to='/cart'><img src={cart_icon} alt="" /></Link>
-        <div className="nav-cart-count">{getTotalCartItems()}</div>
+        <Link to='/cart' className='cart'>
+          <img src={cart_icon} alt="" />
+          <div className="nav-cart-count">{getTotalCartItems()}</div>
+        </Link>
+        
         <Panel></Panel>
       </div>
 

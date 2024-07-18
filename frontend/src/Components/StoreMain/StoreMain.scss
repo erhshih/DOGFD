@@ -39,7 +39,7 @@
   .item_top {
     display: flex;
     flex-wrap: wrap;
-    padding: 4vw;
+    padding: 2vw 4vw 4vw 4vw;
     gap: 2vw;
   }
 
@@ -606,10 +606,6 @@
 }
 
 @media screen and (max-width: 575.98px) {
-    .store_wrap {
-        padding-top: 50px;
-        /* border: rgb(255, 0, 0) 3px solid; */
-      }
     
       .store_top {
         /* display: flex;

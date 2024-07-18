@@ -75,7 +75,7 @@
 }
 @media(max-width: 800px){
     .shopcategory-banner{
-        margin-top: 20vw;
+        margin-top: 5vw;
         img{
             max-width: 200px;
         }
@@ -93,5 +93,8 @@
 @media(max-width: 500px){
     .shopcategory-products{
         grid-template-columns: 1fr 1fr;
+    }
+    .shopcategory-banner{
+        margin-top: 5vw;
     }
 }

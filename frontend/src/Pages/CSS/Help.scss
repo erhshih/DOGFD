@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  border: none;
+  box-sizing: border-box;
+}
+@media screen and (min-width: 1200px) {
+  .wrap {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #f4f5f6;
+    transform: none;
+    margin-bottom:5vw;
+  }
+  .help_wrap {
+    padding: 0 6vw;
+    padding-top: 3em;
+  }
+
+  .help_wrap p {
+    padding-top: 2.5vw;
+    padding-bottom: 0.61vw;
+  }
+  .help_wrap .top h2 {
+    font-size: min(3.5vw, 50px);
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    padding-bottom: 0.3vw;
+  }
+
+  .help_wrap .top .p {
+    font-size: min(20px);
+    letter-spacing: 0.04em;
+  }
+
+  .help_wrap .middle {
+    padding-top: 6.5vw;
+    padding-bottom: 0.3vw;
+    display: flex;
+    gap: 2vw;
+  }
+
+  .help_wrap .middle .content {
+    border-bottom: 1px solid #000;
+    width: 100%;
+    height: 2.2em;
+  }
+
+  .accordion {
+    background-color: #f4f5f6;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border: 1px solid #c0c0c0;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    transition: 0.6s;
+    margin: 0.7em 0 0 0;
+  }
+
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active,
+  .accordion:hover {
+    background-color: rgb(226, 226, 226);
+  }
+
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    margin-top: -0.4vw;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 1199.98px) {
+  .wrap {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #f4f5f6;
+    transform: none;
+    margin-bottom:5vw;
+  }
+  .help_wrap {
+    padding: 0 6vw;
+    padding-top: min(6vw, 200px);
+  }
+
+  .help_wrap p {
+    padding-top: 1vw;
+    padding-bottom: 0.61vw;
+  }
+  .help_wrap .top h2 {
+    font-size: min(5.2vw, 50px);
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    padding-bottom: 0.3vw;
+  }
+
+  .help_wrap .top .p {
+    font-size: min(2.5vw);
+    letter-spacing: 0.04em;
+  }
+
+  .help_wrap .middle {
+    padding-top: 6.5vw;
+    padding-bottom: 0.3vw;
+    gap: 4vw;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .help_wrap .middle .content {
+    border-bottom: 1px solid #000;
+
+    width: 100%;
+    height: 2.2em;
+    font-size: 2vw;
+  }
+
+  .accordion {
+    background-color: #f4f5f6;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border: 1px solid #c0c0c0;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    transition: 0.6s;
+    margin: 0.7em 0 0 0;
+  }
+
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active,
+  .accordion:hover {
+    background-color: rgb(226, 226, 226);
+  }
+
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    margin-top: -0.4vw;
+  }
+}
+@media screen and (max-width: 575.98px) {
+  .wrap {
+    max-width: 576px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #f4f5f6;
+    transform: none;
+    margin-bottom:5vw;
+  }
+  .help_wrap {
+    padding: 0 6vw;
+    padding-top: min(11vw, 200px);
+  }
+
+  .help_wrap p {
+    padding-top: 2em;
+    padding-bottom: 0vw;
+  }
+  .help_wrap .top h2 {
+    font-size: min(8vw, 50px);
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    padding-bottom: 0vw;
+  }
+
+  .help_wrap .top .p {
+    font-size: min(3vw);
+    letter-spacing: 0.04em;
+    display: none;
+  }
+
+  .help_wrap .middle {
+    padding-top: 4vw;
+    padding-bottom: 0.3vw;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .help_wrap .middle .content {
+    font-size: min(3vw);
+    border-bottom: 1px solid #000;
+    width: 100%;
+    height: 2em;
+    margin-top: 5.5vw;
+    letter-spacing: 0.2em;
+  }
+
+  .accordion {
+    background-color: #f4f5f6;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border: 1px solid #c0c0c0;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    transition: 0.6s;
+    margin: .7em 0 0 0;
+  }
+
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active,
+  .accordion:hover {
+    background-color: rgb(226, 226, 226);
+  }
+
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out;
+    margin-top: -20px;
+  }
+}

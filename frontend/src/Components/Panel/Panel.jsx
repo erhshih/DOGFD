@@ -16,25 +16,28 @@ const Panel = () => {
       />
       <div className={`wrap_menu_content ${isOpen ? "open" : "close"}`}>
         <div className="menu_list">
-          <Link style={{ textDecoration: 'none' }} to='/'>
+          <Link style={{ textDecoration: 'none' }} to='/' onClick={() => setOpen(false)}>
             <li style={{ textDecoration: isActive('/') }}>STORE</li>
           </Link>
-          <Link style={{ textDecoration: 'none' }} to='/about'>
+          <Link style={{ textDecoration: 'none' }} to='/about' onClick={() => setOpen(false)}>
             <li style={{ textDecoration: isActive('/about') }}>ABOUT US</li>
           </Link>
-          <Link style={{ textDecoration: 'none' }} to='/knowledge'>
-            <li style={{ textDecoration: isActive('/knowledge') }}>DOGS KNOWLEDGE</li>
+          <Link style={{ textDecoration: 'none' }} to='/introduce' onClick={() => setOpen(false)}>
+            <li style={{ textDecoration: isActive('/introduce') }}>Introducing Dogs</li>
           </Link>
-          <Link style={{ textDecoration: 'none' }} to='/activities'>
+          <Link style={{ textDecoration: 'none' }} to='/activities' onClick={() => setOpen(false)}>
             <li style={{ textDecoration: isActive('/activities') }}>SOCIAL ACTIVITIES</li>
           </Link>
-          <Link style={{ textDecoration: 'none' }} to='/help'>
-            <li style={{ textDecoration: isActive('/help') }}>HELP</li>
+          <Link style={{ textDecoration: 'none' }} to='/register' onClick={() => setOpen(false)}>
+            <li style={{ textDecoration: isActive('/register') }}>Register</li>
+          </Link>
+          <Link style={{ textDecoration: 'none' }} to='/help' onClick={() => setOpen(false)}>
+            <li style={{ textDecoration: isActive('/help') }}>Q&A</li>
           </Link>
         </div>
         {localStorage.getItem('auth-token')
-        ?<button className='logbtn' onClick={ ()=>{localStorage.removeItem('auth-token'); window.location.replace('/DOGFD')}}>Logout</button>
-        :<Link to='/login'><button  className='logbtn'>Login</button></Link>
+        ?<button className='logbtn' onClick={ ()=>{localStorage.removeItem('auth-token'); window.location.replace('/DOGFD'); setOpen(false);}}>Logout</button>
+        :<Link to='/login' onClick={() => setOpen(false)}><button  className='logbtn'>Login</button></Link>
         }
       </div>
     </div>

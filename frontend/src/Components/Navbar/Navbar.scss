@@ -5,7 +5,7 @@
     box-shadow: 0 1px 3px -2px black;
     position: sticky; /* 使用 sticky 而不是 fixed */
     top: 0; 
-    z-index: 2;
+    z-index: 20;
     background-color: white;
 }
 .nav-logo{
@@ -49,9 +49,19 @@
     display: flex;
     align-items: center;
     gap: 30px;
-    img{
-        max-width: 30px;
+    position: relative;
+    .cart{
+        
+        img{
+            max-width: 30px;
+        }
+        .nav-cart-count{
+            position: absolute;
+            top: 32px;
+            left: 62px;
+        }
     }
+    
 }
 
 .nav-cart-count{
@@ -121,17 +131,35 @@
     .nav-dropdown{
         display: block;
         width: 30px;
-        rotate: -90deg;
         transition: 0.5s;
+        margin-left: -3em;
     }
     .nav-menu{
-        display: none;
+        display: none; 
         height: 80px;
         width: 100%;
         position: absolute;
         background-color: white;
         justify-content: center;
         top: 50px;
+    }
+    .nav-login-cart{
+        .cart{
+            position: absolute;
+            left: -28px;
+            img{
+                transform: scale(.9);
+            }
+            .nav-cart-count{
+                top: 29px;
+                left:58px;
+            }
+
+        }
+        button{
+            left: 0px;
+            width: 60px;
+        }
     }
     .nav-menu-visible{
         display: flex;
@@ -148,15 +176,28 @@
     }
     .nav-logo{
         transform: scale(.8);
+        margin-top: 5px;
     }
     .nav-menu{
         height: 70px;
         top: 50px;
     }
     .nav-login-cart{
-        img{
-            transform: scale(.8);
-        }
+        .cart{
+            position: absolute;
+            left: -28px;
+            img{
+                transform: scale(.9);
+            }
+            .nav-cart-count{
+                top: 29px;
+                left:58px;
+            }
 
+        }
+        button{
+            left: 0px;
+            width: 60px;
+        }
     }
 }

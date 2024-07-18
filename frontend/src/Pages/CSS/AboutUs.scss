@@ -1,0 +1,647 @@
+.slider{
+  max-width: 100%;
+  margin-top: 4vw;
+}
+@media screen and (min-width: 1200px) {
+/* 關於 */
+.about {
+  /* border: 5px rgb(255, 196, 0) solid; */
+  background-color: #f4f5f6;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.about_top {
+  /* width: 100%; */
+  /* height: 164px;  */
+  /* border: 2px rgb(24, 0, 245) solid; */
+}
+
+.about_top .text {
+  font-size: 96px;
+  width: 192px;
+  height: 113px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-top: 35px;
+}
+
+  /* 標題 */
+  .head_goal {
+    width: 100%;
+    height: 100px;
+    margin-top: 100px;
+    position: relative;
+  }
+
+  .head_goal .text {
+    font-size: 76px;
+    text-align: center;
+  }
+
+  /* 概念 */
+  .concept {
+    display: flex;
+    width: 100%;
+
+    margin: auto;
+    margin-top: 100px;
+  }
+
+  .concept .text {
+    line-height: 40px;
+    width: 55%;
+    padding-left: 20%;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+  }
+
+  .concept .text p {
+    margin: 35px 0;
+  }
+
+  .concept .text p:nth-child(1) {
+    margin: 8px 0 35px 0;
+  }
+
+  .concept_img {
+    width: 45%;
+    margin-right: 0;
+  }
+  .concept img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* 目的一 */
+
+  .goal {
+    /* width: 100%; */
+  }
+
+  .goal01 {
+    display: flex;
+    width: 100%;
+    /* height: auto; */
+    margin: auto;
+    /* border: 1px solid rgb(219, 6, 6); */
+    margin-top: 150px;
+  }
+
+  .goal01 img {
+    max-width: 100%;
+    height: anto;
+    z-index: 1;
+  }
+  .goal01 .text01 {
+    width: 50%;
+    min-width: 400px;
+  }
+
+  .goal01 .text01 .topic {
+  }
+
+  .goal01 .text01 .topic {
+    /* border: 1px solid rgb(0, 255, 76); */
+    /* width: 644px; */
+    min-width: 424px;
+    max-width: 100%;
+    position: relative;
+    padding-left: 30px;
+    left: 0px;
+    background-color: #f4f5f6;
+  }
+
+
+  .goal01 .text01 .topic h2 {
+    font-size: 60px;
+    min-width: 424px;
+    margin-top: -20px;
+  }
+
+  .goal01 .text01 .content p:nth-child(1) {
+    font-size: 32px;
+    line-height: 1.2em;
+    font-weight: 600;
+    width: 453px;
+  }
+
+  .goal01 .text01 .content p:nth-child(2) {
+    font-size: 16px;
+    /* width: 463px; */
+    min-width: 424px;
+    line-height: 35px;
+    margin-top: 35px;
+  }
+
+  .goal01 .text01 .content {
+    /* border: 1px solid rgb(0, 255, 76); */
+
+    max-width: 100%;
+    height: 458px;
+    padding: 60px 38px 80px 110px;
+    z-index: 2;
+    position: relative;
+    left: -148px;
+    background-color: #f4f5f6;
+  }
+
+  /* 目的二 */
+  .goal02 {
+    display: flex;
+    width: 100%;
+    /* height: auto; */
+    margin: auto;
+    /* border: 1px solid rgb(219, 6, 6); */
+    margin-top: 150px;
+  }
+
+  .goal02 img {
+    max-width: 100%;
+    height: anto;
+    z-index: 1;
+  }
+
+  .goal02 .text02 {
+    width: 60%;
+    min-width: 400px;
+  }
+
+  .goal02 .text02 .topic h2 {
+    font-size: 60px;
+    min-width: 424px;
+    margin-top: -20px;
+    margin-left: 80px
+  }
+
+  .goal02 .text02 .content p:nth-child(1) {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.2em;
+    width: 453px;
+  }
+
+  .goal02 .text02 .content p:nth-child(2) {
+    font-size: 16px;
+    /* width: 463px; */
+    min-width: 424px;
+    line-height: 35px;
+    margin-top: 35px;
+  }
+
+  .goal02 .text02 .content {
+    /* border: 1px solid rgb(0, 255, 76); */
+    max-width: 100%;
+    height: 458px;
+    padding: 60px 98px 80px 50px;
+    z-index: 2;
+    left: 140px;
+    position: relative;
+    background-color: #f4f5f6;
+  }
+
+  .goal02 .text02 .topic {
+    /* border: 1px solid rgb(0, 255, 76); */
+    min-width: 424px;
+    max-width: 100%;
+    position: relative;
+    padding-left: 100px;
+    left: 0px;
+    background-color: #f4f5f6;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 1199.98px) {
+    /* 關於 */
+  .wrap {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #f4f5f6;
+    transform: none;
+  }
+/* 關於 */
+.about {
+  /* border: 5px rgb(255, 196, 0) solid; */
+  background-color: #f4f5f6;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.about_top {
+  /* width: 100%; */
+  /* height: 164px;  */
+  /* border: 2px rgb(24, 0, 245) solid; */
+}
+
+.about_top .text {
+  font-size: 64px;
+  text-align: center;
+  margin-bottom: 5px;
+  margin-top: 35px;
+  letter-spacing: 0.06em;
+  padding-left: 13px;
+}
+
+ /* 標題 */
+ .head_goal {
+  width: 100%;
+  /* border: 1px solid #000; */
+  margin-top: 90px;
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.head_goal .text {
+  font-size: 64px;
+  text-align: center;
+}
+/* 概念 */
+.concept {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.concept .text {
+  line-height: 35px;
+  width: 50%;
+  padding-left: 10%;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+}
+
+.concept .text p {
+  margin: 18px 0;
+}
+
+.concept .text p:nth-child(1) {
+  margin: 8px 0 35px 0;
+}
+
+.concept_img {
+  width: 50%;
+  margin-right: 0;
+}
+.concept img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 目的一 */
+
+.goal {
+  /* width: 100%; */
+}
+
+.goal01 {
+  display: flex;
+  width: 100%;
+  /* height: auto; */
+  margin: auto;
+  /* border: 1px solid rgb(219, 6, 6); */
+  margin-top: 10px;
+}
+.img01 {
+  width: 50%;
+}
+.goal01 img {
+  max-width: 100%;
+  height: anto;
+
+  z-index: 1;
+}
+.goal01 .text01 {
+  width: 50%;
+  min-width: 400px;
+}
+
+.goal01 .text01 .topic {
+  /* border: 1px solid rgb(0, 255, 76); */
+  /* width: 644px; */
+  min-width: 300px;
+  max-width: 100%;
+  position: relative;
+  padding-left: 30px;
+  left: 0px;
+  background-color: #f4f5f6;
+}
+
+.goal01 .text01 .topic h2 {
+  font-size: 46px;
+  min-width: 300px;
+  margin-top: -20px;
+}
+
+.goal01 .text01 .content p:nth-child(1) {
+  font-size: 28px;
+  line-height: 1.2em;
+  font-weight: 600;
+  max-width: 453px;
+}
+
+.goal01 .text01 .content p:nth-child(2) {
+  font-size: 14px;
+  /* width: 463px; */
+  min-width: 350px;
+  line-height: 35px;
+  margin-top: 35px;
+}
+
+.goal01 .text01 .content {
+  /* border: 1px solid rgb(0, 255, 76); */
+
+  max-width: 100%;
+  /* height: 358px; */
+  padding: 60px 38px 80px 110px;
+  z-index: 2;
+  position: relative;
+  left: -100px;
+  background-color: #f4f5f6;
+}
+
+/* 目的二 */
+.goal02 {
+  display: flex;
+  width: 100%;
+  /* height: auto; */
+  margin: auto;
+  /* border: 1px solid rgb(219, 6, 6); */
+  margin-top: 0px;
+}
+.img02 {
+  width: 50%;
+}
+.goal02 img {
+  max-width: 100%;
+  height: anto;
+
+  z-index: 1;
+}
+.goal02 .text02 {
+  width: 50%;
+  min-width: 400px;
+}
+
+.goal02 .text02 .topic {
+  /* border: 1px solid rgb(0, 255, 76); */
+  /* width: 644px; */
+  min-width: 300px;
+  max-width: 100%;
+  position: relative;
+  padding-left: 30px;
+  left: 0px;
+  background-color: #f4f5f6;
+}
+
+.goal02 .text02 .topic h2 {
+  font-size: 46px;
+  min-width: 424px;
+  margin-top: -20px;
+  margin-left: 70px
+}
+
+.goal02 .text02 .content p:nth-child(1) {
+  font-size: 28px;
+  line-height: 1.2em;
+  font-weight: 600;
+  min-width: 350px;
+}
+
+.goal02 .text02 .content p:nth-child(2) {
+  font-size: 14px;
+  /* width: 463px; */
+  min-width: 350px;
+  line-height: 35px;
+  margin-top: 35px;
+}
+
+.goal02 .text02 .content {
+  /* border: 1px solid rgb(0, 255, 76); */
+
+  max-width: 100%;
+  /* height: 358px; */
+  padding: 60px 38px 80px 10px;
+  z-index: 2;
+  position: relative;
+  left: 100px;
+  background-color: #f4f5f6;
+}
+
+  }
+  @media screen and (max-width: 575.98px) {
+    .wrap {
+      max-width: 576px;
+      width: 100%;
+      margin: 0 auto;
+      background-color: #f4f5f6;
+      transform: none;
+    }
+  /* 關於 */
+  .about {
+    /* border: 5px rgb(255, 196, 0) solid; */
+    background-color: #f4f5f6;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .about_top {
+    /* width: 100%; */
+    /* height: 164px;  */
+    /* border: 2px rgb(24, 0, 245) solid; */
+  }
+
+  .about_top .text {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 35px;
+    letter-spacing: 0.06em;
+    padding-left: 6px;
+  }
+  /* 標題 */
+  .head_goal {
+    width: 100%;
+    /* border: 1px solid #000; */
+    margin-top: 45px;
+    position: relative;
+    margin-bottom: -20px;
+  }
+
+  .head_goal .text {
+    font-size: 36px;
+    text-align: center;
+  }
+  /* 概念 */
+  .concept {
+    /* display: flex; */
+    width: 100%;
+    margin: auto;
+    margin-top: 60px;
+  }
+
+  .concept .text {
+    line-height: 20px;
+    padding-left: 20%;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+  }
+
+  .concept .text p {
+    margin: 12px 0;
+  }
+
+  .concept .text p:nth-child(1) {
+    margin: 8px 0 35px 0;
+  }
+
+  .concept_img {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+  .concept img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* 目的一 */
+
+  .goal {
+    /* width: 100%; */
+    overflow: hidden;
+  }
+
+  .goal01 {
+    width: 100%;
+    /* height: auto; */
+    margin: auto;
+    /* border: 1px solid rgb(219, 6, 6); */
+    margin-top: 12%;
+  }
+
+  .img01 {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: -180px;
+  }
+
+  .goal01 img {
+    max-width: 100%;
+    height: anto;
+    z-index: 1;
+  }
+  .goal01 .text01 {
+  }
+
+  .goal01 .text01 .topic {
+    position: relative;
+
+  }
+  .goal01 .text01 .topic h2 {
+    font-size: 24px;
+    font-weight: 900;
+    margin-top: -30%;
+    background-color: #f4f5f6;
+    writing-mode: vertical-rl;
+    direction: rtl;
+    letter-spacing: 0.1em;
+    padding: 1em;
+    padding-bottom: 2em;
+  }
+
+  .goal01 .text01 .topic .find {
+    padding-bottom:5em;
+  }
+
+
+  .goal01 .text01 .content p:nth-child(1) {
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 1.2em;
+    font-weight: 600;
+  }
+
+  .goal01 .text01 .content p:nth-child(2) {
+    font-size: 12px;
+    line-height: 28px;
+    margin-top: 0px;
+  }
+
+  .goal01 .text01 .content {
+    /* border: 1px solid rgb(0, 255, 76); */
+    width: 80%;
+    background-color: #f4f5f6;
+    margin-left: 15%;
+  }
+
+  /* 目的二 */
+
+  .goal02 {
+    width: 100%;
+    /* height: auto; */
+    margin: auto;
+    /* border: 1px solid rgb(219, 6, 6); */
+    margin-top: 12%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img02 {
+    width: 90%;
+    margin: 0 auto;
+    /* margin-bottom: -180px; */
+    order: 1;
+  }
+
+  .goal02 img {
+    max-width: 100%;
+    height: anto;
+    z-index: 1;
+  }
+  .goal02 .text02 {
+    order: 2;
+  }
+
+  .goal02 .text02 .topic {
+    position: relative;
+  }
+
+  .goal02 .text02 .topic h2 {
+    font-size: 24px;
+    font-weight: 900;
+    float: right;
+    background-color: #f4f5f6;
+    writing-mode: vertical-rl;
+    direction: rtl;
+    letter-spacing: 0.1em;
+    margin-top: -40%;
+    padding: 1em;
+    padding-bottom: 6em;
+  }
+
+  .goal02 .text02 .content p:nth-child(1) {
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 1.2em;
+    font-weight: 600;
+  }
+
+  .goal02 .text02 .content p:nth-child(2) {
+    font-size: 12px;
+    line-height: 28px;
+    margin-top: 0px;
+  }
+
+  .goal02 .text02 .content {
+    /* border: 1px solid rgb(0, 255, 76); */
+    width: 80%;
+    background-color: #f4f5f6;
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+    .goal03{
+      margin-bottom: 3em;
+    }
+
+  }

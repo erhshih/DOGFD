@@ -6,6 +6,7 @@
     gap: 50px;
     background-color: #000;
     padding-top: 2em;
+    position: relative;
     .footer-logo{
         display: flex;
         align-items: center;
@@ -67,6 +68,7 @@
         .footer-links{
             font-size: 14px;
             gap: 10px;
+            flex-direction: column;
         }
         .footer-social-icon img{
             width: 22px;
@@ -74,15 +76,16 @@
         .footer-copyright{
             font-size: 13px;
         }
-    }
-    .footer-logo{
-        gap: 10px;
-        align-items: end;
-        img{
-            width: 40px;
+        .footer-logo{
+            gap: 10px;
+            align-items: end;
+            img{
+                max-width: 40px;
+            }
+            p{
+                font-size: 25px;
+            }
         }
-        p{
-            font-size: 25px;
-        }
     }
+   
 }

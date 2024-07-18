@@ -4,6 +4,7 @@
     align-items: center;
     gap: 10px;
     height: 90vh;
+    padding-top: 2em;
 }
 .popular h1{
     color: #171717;
@@ -78,7 +79,7 @@
 }
 @media(max-width: 500px){
     .popular{
-        height: 90vh;
+        height: 75vh;
     }
     .popular-item{
         display: grid;
