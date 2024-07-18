@@ -23,7 +23,7 @@ const Footer = () => {
             <li>ABOUT US</li>
           </Link>
           <Link to='/introduce'>
-            <li>Introducing Dogs</li>
+            <li>INTRODUCING DOGS</li>
           </Link>
           <Link to='/activities'>
             <li>SOCIAL ACTIVITIES</li>

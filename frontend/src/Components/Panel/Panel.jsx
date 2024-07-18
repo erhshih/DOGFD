@@ -23,13 +23,13 @@ const Panel = () => {
             <li style={{ textDecoration: isActive('/about') }}>ABOUT US</li>
           </Link>
           <Link style={{ textDecoration: 'none' }} to='/introduce' onClick={() => setOpen(false)}>
-            <li style={{ textDecoration: isActive('/introduce') }}>Introducing Dogs</li>
+            <li style={{ textDecoration: isActive('/introduce') }}>INTRODUCING DOGS</li>
           </Link>
           <Link style={{ textDecoration: 'none' }} to='/activities' onClick={() => setOpen(false)}>
             <li style={{ textDecoration: isActive('/activities') }}>SOCIAL ACTIVITIES</li>
           </Link>
           <Link style={{ textDecoration: 'none' }} to='/register' onClick={() => setOpen(false)}>
-            <li style={{ textDecoration: isActive('/register') }}>Register</li>
+            <li style={{ textDecoration: isActive('/register') }}>REGISTER</li>
           </Link>
           <Link style={{ textDecoration: 'none' }} to='/help' onClick={() => setOpen(false)}>
             <li style={{ textDecoration: isActive('/help') }}>Q&A</li>
