@@ -104,7 +104,7 @@ const Introduce = () => {
           </div>
         </div>
         <div className="benefit_wrap">
-          <div className="shsh">SHIBA</div>
+
           <div className="left">
             <h1>Advantages</h1>
             <p>
