@@ -60,7 +60,7 @@
 	
 	  .photo_all {
 		display: flex;
-		transform: rotateZ(-6deg) translateX(-15%) translateY(-15%);
+		transform: rotateZ(-6deg) translateX(-19%) translateY(-15%);
 		gap: 8px;
 	  }
 	  .photo_col {
@@ -70,7 +70,7 @@
 	  }
 	
 	  .photo_all .photo {
-		width: min(40vw, 572px);
+		width: min(35vw, 572px);
 	  }
 	  .photo_all .photo img {
 		max-width: 100%;
@@ -89,41 +89,25 @@
 	  }
 	
 	  @keyframes photorun2 {
-		0% {
-		  margin-top: 0%;
-		  transform: translateY(0%);
+		from { transform: translateY(0); 
+		margin-top: -50px;
 		}
-	
-		100% {
-		  margin-top: 100%;
-		  transform: translateY(-100%);
-		}
+  		to { transform: translateY(-50%); }
 	  }
 	
 	  @keyframes photorun1 {
-		0% {
-		  margin-top: 0%;
-		  transform: translateY(-10%);
-		}
-	
-		100% {
-		  margin-top: 100%;
-		  transform: translateY(-100%);
-		}
+		from { transform: translateY(0); }
+  		to { transform: translateY(-50%); }
 	  }
 	
 	  @keyframes photorun3 {
-		0% {
-		  margin-top: 0%;
-		  transform: translateY(-5%);
+		from { transform: translateY(0); 
+		margin-top: 150px;
 		}
-	
-		100% {
-		  margin-top: 100%;
-		  transform: translateY(-100%);
-		}
+		to { transform: translateY(-50%); }
 	  }
 	
+
 	  .font_bottom {
 		font-size: min(1.5vw, 23px);
 		/* border: 1px solid #fff; */
@@ -132,11 +116,6 @@
 		padding: 6vw 0 4vw 0;
 	  }
 	
-	  .font_bottom p:nth-child(3) {
-	  }
-	
-	  .font_bottom p:nth-child(2) {
-	  }
 	  /* =================benefit_wrap=============== */
 	  .benefit_wrap {
 		background-color: #000;
@@ -619,7 +598,7 @@
 	
 	  .photo_all {
 		display: flex;
-		transform: rotateZ(-6deg) translateX(-15%) translateY(-15%);
+		transform: rotateZ(-6deg) translateX(-19%) translateY(-15%);
 		gap: 8px;
 	  }
 	
@@ -649,39 +628,22 @@
 	  }
 	
 	  @keyframes photorun2 {
-		0% {
-		  margin-top: 0%;
-		  transform: translateY(0%);
+		from { transform: translateY(0); 
+		margin-top: -50px;
 		}
-	
-		100% {
-		  margin-top: 100%;
-		  transform: translateY(-100%);
-		}
+  		to { transform: translateY(-50%); }
 	  }
 	
 	  @keyframes photorun1 {
-		0% {
-		  margin-top: 0%;
-		  transform: translateY(-10%);
-		}
-	
-		100% {
-		  margin-top: 100%;
-		  transform: translateY(-100%);
-		}
+		from { transform: translateY(0); }
+  		to { transform: translateY(-50%); }
 	  }
 	
 	  @keyframes photorun3 {
-		0% {
-		  margin-top: 0%;
-		  transform: translateY(-5%);
+		from { transform: translateY(0); 
+		margin-top: 150px;
 		}
-	
-		100% {
-		  margin-top: 100%;
-		  transform: translateY(-100%);
-		}
+		to { transform: translateY(-50%); }
 	  }
 	/* =================benefit_wrap=============== */
 	.benefit_wrap {
@@ -1360,13 +1322,13 @@
   
 	.photo_all {
 	  display: flex;
-	  transform: rotateZ(-6deg) translateX(-55%) translateY(-15%);
+	  transform: rotateZ(-6deg) translateX(-62%) translateY(-15%);
 	  /* gap: 8px; */
 	}
   
 	.photo_all .photo {
-	  width: 54vw;
-	  margin: 5px;
+	  width: 50vw;
+	  margin: 2px 5px;
 	}
 	.photo_all .photo img {
 	  max-width: 100%;
@@ -1374,7 +1336,6 @@
 	.photo_col {
 	  display: flex;
 	  flex-direction: column;
-	  /* gap: 8px; */
 	}
   
 	.photo_col:nth-child(1) {
@@ -1391,40 +1352,23 @@
 	}
   
 	@keyframes photorun2 {
-	  0% {
-		margin-top: 0%;
-		transform: translateY(0%);
+		from { transform: translateY(0); 
+		margin-top: -50px;
+		}
+  		to { transform: translateY(-50%); }
 	  }
-  
-	  100% {
-		margin-top: 100%;
-		transform: translateY(-100%);
+	
+	  @keyframes photorun1 {
+		from { transform: translateY(0); }
+  		to { transform: translateY(-50%); }
 	  }
-	}
-  
-	@keyframes photorun1 {
-	  0% {
-		margin-top: 0%;
-		transform: translateY(-10%);
+	
+	  @keyframes photorun3 {
+		from { transform: translateY(0); 
+		margin-top: 100px;
+		}
+		to { transform: translateY(-50%); }
 	  }
-  
-	  100% {
-		margin-top: 100%;
-		transform: translateY(-100%);
-	  }
-	}
-  
-	@keyframes photorun3 {
-	  0% {
-		margin-top: 0%;
-		transform: translateY(-5%);
-	  }
-  
-	  100% {
-		margin-top: 100%;
-		transform: translateY(-100%);
-	  }
-	}
 	/* =================benefit_wrap=============== */
 	.benefit_wrap {
 	  background-color: #000;

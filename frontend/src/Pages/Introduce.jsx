@@ -15,76 +15,73 @@ const Introduce = () => {
                 &emsp;adorable Shiba Inus
               </p>
             </div>
+
             <div className="photo_frame">
-                <div className="photo_all">
-                    <div className="photo_col">
-                    <div className="photo">
-                        <img src="image/wrap_black01.jpg" alt="" />
-                    </div>
-                    <div className="photo">
-                        <img src="image/wrap_black02.jpg" alt="" />
-                    </div>
-                    <div className="photo">
-                        <img src="image/wrap_black03.jpg" alt="" />
-                    </div>
-                
-                    <div className="photo">
-                        <img src="image/wrap_black01.jpg" alt="" />
-                    </div>
-                    <div className="photo">
-                        <img src="image/wrap_black02.jpg" alt="" />
-                    </div>
-                    <div className="photo">
-                        <img src="image/wrap_black03.jpg" alt="" />
-                    </div>
-                    </div>
-
-                    <div className="photo_col">
-                    <div className="photo">
-                        <img src="image/wrap_black05.jpg" alt="" />
-                    </div>
-                    <div className="photo">
-                        <img src="image/wrap_black04.jpg" alt="" />
-                    </div>
-                    <div className="photo">
-                        <img src="image/wrap_black06.jpg" alt="" />
-                    </div>
-                
-                    <div className="photo">
-                        <img src="image/wrap_black05.jpg" alt="" />
-                    </div>
-                    <div className="photo">
-                        <img src="image/wrap_black04.jpg" alt="" />
-                    </div>
-                    <div className="photo">
-                        <img src="image/wrap_black06.jpg" alt="" />
-                    </div>
-                    </div>
-
-                    <div className="photo_col">
-                    <div className="photo">
-                        <img src="image/wrap_black07.jpg" alt="" />
-                    </div>
-                    <div className="photo">
-                        <img src="image/wrap_black08.jpg" alt="" />
-                    </div>
-                    <div className="photo">
-                        <img src="image/wrap_black09.jpg" alt="" />
-                    </div>
-                
-                    <div className="photo">
-                        <img src="image/wrap_black07.jpg" alt="" />
-                    </div>
-                    <div className="photo">
-                        <img src="image/wrap_black08.jpg" alt="" />
-                    </div>
-                    <div className="photo">
-                        <img src="image/wrap_black09.jpg" alt="" />
-                    </div>
-                    </div>
-                </div>
+              <div className="photo_all">
+                <div className="photo_col">
+                  <div className="photo">
+                    <img src="image/wrap_black01.jpg" alt="" />
+                  </div>
+                  <div className="photo">
+                    <img src="image/wrap_black02.jpg" alt="" />
+                  </div>
+                  <div className="photo">
+                    <img src="image/wrap_black03.jpg" alt="" />
+                  </div>         
+                  <div className="photo">
+                    <img src="image/wrap_black01.jpg" alt="" />
+                  </div>
+                  <div className="photo">
+                    <img src="image/wrap_black02.jpg" alt="" />
+                  </div>
+                  <div className="photo">
+                    <img src="image/wrap_black03.jpg" alt="" />
+                  </div>             
                 </div>
 
+                <div className="photo_col">
+                  <div className="photo">
+                    <img src="image/wrap_black05.jpg" alt="" />
+                  </div>
+                  <div className="photo">
+                    <img src="image/wrap_black04.jpg" alt="" />
+                  </div>
+                  <div className="photo">
+                    <img src="image/wrap_black06.jpg" alt="" />
+                  </div>
+                  <div className="photo">
+                    <img src="image/wrap_black05.jpg" alt="" />
+                  </div>
+                  <div className="photo">
+                    <img src="image/wrap_black04.jpg" alt="" />
+                  </div>
+                  <div className="photo">
+                    <img src="image/wrap_black06.jpg" alt="" />
+                  </div>
+                </div>
+
+                <div className="photo_col">
+                  <div className="photo">
+                    <img src="image/wrap_black07.jpg" alt="" />
+                  </div>
+                  <div className="photo">
+                    <img src="image/wrap_black08.jpg" alt="" />
+                  </div>
+                  <div className="photo">
+                    <img src="image/wrap_black09.jpg" alt="" />
+                  </div>
+                  <div className="photo">
+                    <img src="image/wrap_black07.jpg" alt="" />
+                  </div>
+                  <div className="photo">
+                    <img src="image/wrap_black08.jpg" alt="" />
+                  </div>
+                  <div className="photo">
+                    <img src="image/wrap_black09.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
 
           <div className="font_bottom">
@@ -121,10 +118,10 @@ const Introduce = () => {
             <img src="image/benefit1.jpg" alt="" />
           </div>
           <div className="right">
-    <Link to='/help'>
-      <button>Q&A</button>
-    </Link>
-  </div>
+            <Link to="/help">
+              <button>Q&A</button>
+            </Link>
+          </div>
         </div>
         <div className="color_wrap">
           <div className="left">
