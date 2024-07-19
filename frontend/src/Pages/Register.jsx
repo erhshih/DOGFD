@@ -39,11 +39,9 @@ const register = () => {
             </div>
             <div className="photo">
               <img src="image/register_photo.jpg" alt="" />
-              <a id="register" href="">
                 <div className="circle">
                   <i className="fas fa-long-arrow-alt-down"></i>
                 </div>
-              </a>
             </div>
           </div>
 

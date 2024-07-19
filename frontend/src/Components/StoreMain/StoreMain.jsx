@@ -8,22 +8,6 @@ const StoreMain = () => {
   const [menu, setMenu] = useState("shop")
   return (
     <div className="store_wrap">
-      {/* <div className="store_top">
-
-        <div className="text_right">
-          <a href="./all_items.html">
-            <li>Foods</li>
-          </a>
-
-          <a href="./all_items.html">
-            <li>Toys</li>
-          </a>
-
-          <a href="./all_items.html">
-            <li>Health</li>
-          </a>
-        </div>
-      </div> */}
       <div className="item_top">
         <div className="item_1">
           <div className="text">
