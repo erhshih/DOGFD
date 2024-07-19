@@ -9,7 +9,7 @@ const Introduce = () => {
         <div className="wrap_balck">
           <div className="font_img">
             <div className="font">
-              <h3>柴犬</h3>
+              <h3>Shiba</h3>
               <p>
                 The irresistible charm of <br />
                 &emsp;adorable Shiba Inus
