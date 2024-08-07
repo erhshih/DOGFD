@@ -52,16 +52,16 @@
     color: #fff;
     margin-bottom: 15px;
   }
+  hr{
+    background-color: #8c8c8c;
+    border: none;
+    height: 1px;
+    width: 100%;
+    margin-bottom: 7%;
+  }
+  
 }
-.logbtn{
-  font-size: 1em;
-  padding: .5em;
-  font-weight: bold;
-  cursor: pointer;
-}
-.logbtn:active{
-  background: #fff5b6;
-}
+
 @media(max-width:1280px){
   .hamburger-button{
     transform: scale(.7);
@@ -69,5 +69,10 @@
   .wrap_menu_content {
     max-width: 100vw;
     font-size: .8em;
+  }
+}
+@media(max-width:800px){
+  .wrap_menu_content {
+    padding: 2em;
   }
 }

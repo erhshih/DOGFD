@@ -6,7 +6,19 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.hidden {
+    display: none;
+}
+.centered {
+  position: fixed;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* Optional: Add some styling for better visibility */
+  padding: 20px;
+  border-radius: 8px;
+  z-index: 100;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

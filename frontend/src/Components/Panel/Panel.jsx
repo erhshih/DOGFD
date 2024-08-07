@@ -23,7 +23,7 @@ const Panel = () => {
             <li style={{ textDecoration: isActive('/about') }}>ABOUT US</li>
           </Link>
           <Link style={{ textDecoration: 'none' }} to='/introduce' onClick={() => setOpen(false)}>
-            <li style={{ textDecoration: isActive('/introduce') }}>INTRODUCING DOGS</li>
+            <li style={{ textDecoration: isActive('/introduce') }}>INTRODUCING</li>
           </Link>
           <Link style={{ textDecoration: 'none' }} to='/activities' onClick={() => setOpen(false)}>
             <li style={{ textDecoration: isActive('/activities') }}>SOCIAL ACTIVITIES</li>
@@ -34,11 +34,19 @@ const Panel = () => {
           <Link style={{ textDecoration: 'none' }} to='/help' onClick={() => setOpen(false)}>
             <li style={{ textDecoration: isActive('/help') }}>Q&A</li>
           </Link>
+          <hr />
+          {localStorage.getItem('auth-token')
+            ? <li className='logbtn' onClick={() => {
+                localStorage.removeItem('auth-token');
+                window.location.replace('/DOGFD');
+                setOpen(false);
+              }}>Logout</li>
+            : <Link style={{ textDecoration: 'none' }} to='/login' onClick={() => setOpen(false)}>
+                <li style={{ textDecoration: isActive('/login') }} className='logbtn'>Login</li>
+              </Link>
+          }
         </div>
-        {localStorage.getItem('auth-token')
-        ?<button className='logbtn' onClick={ ()=>{localStorage.removeItem('auth-token'); window.location.replace('/DOGFD'); setOpen(false);}}>Logout</button>
-        :<Link to='/login' onClick={() => setOpen(false)}><button  className='logbtn'>Login</button></Link>
-        }
+       
       </div>
     </div>
   );
