@@ -39,27 +39,27 @@ const ProductDisplay = (props) => {
                     </div>
                 </div>
                 <div className="productdisplay-right-description">
-                    sjflsfksdfjslfsjfslfjdf, ksljfskf., sdk jslfd
+                    Durable dog toy for chewing and fetching fun!
                 </div>
                 <div className="productdisplay-right-size">
-                    <h1>Select size</h1>
+                    {/* <h1>Select size</h1>
                     <div className="productdisplay-right-sizes">
                         <div>S</div>
                         <div>M</div>
                         <div>L</div>
                         <div>XL</div>
                         <div>XXL</div>
-                    </div>
+                    </div> */}
                 </div>
                 <button onClick={() => { addToCart(product.id) }}>
                     ADD TO CART
                 </button>
                 <p className="productdisplay-right-category">
-                    <span>Category :</span>Women , T-shirt, Crop Top
+                    <span>Category : </span>{product.category}
                 </p>
-                <p className="productdisplay-right-category">
-                    <span>Tags :</span>Modern , Latest
-                </p>
+                {/* <p className="productdisplay-right-category">
+                    <span>Tags : </span>Modern , Latest
+                </p> */}
             </div>
         </div>
     </div>
