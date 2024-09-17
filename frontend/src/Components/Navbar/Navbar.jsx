@@ -16,27 +16,27 @@ const Navbar = () => {
   const isActive = (path) => {
     return location.pathname === path ? 'underline' : 'none';
   };
-  const {getTotalCartItems} = useContext(ShopContext)
+  const { getTotalCartItems } = useContext(ShopContext)
   const menuRef = useRef()
-  const dropdown_toggle = (e) =>{
+  const dropdown_toggle = (e) => {
     menuRef.current.classList.toggle('nav-menu-visible')
     e.target.classList.toggle('open')
   }
   return (<>
     <div className='navbar'>
-      <Link style={{textDecoration: 'none'}} to='/'>
+      <Link style={{ textDecoration: 'none' }} to='/'>
         <div className="nav-logo">
           <img src={logo} alt="" />
           <p>DOGFD</p>
-        </div>  
+        </div>
       </Link>
-      <img className= 'nav-dropdown' onClick={dropdown_toggle} src={nav_dropdown} alt="" />
+      <img className='nav-dropdown' onClick={dropdown_toggle} src={nav_dropdown} alt="" />
       <ul ref={menuRef} className='nav-menu'>
-        <li onClick={() => setMenu("shop")}>
-          <Link style={{ textDecoration: 'none' }} to='/' onClick={dropdown_toggle}>
-            Shop
+        <li onClick={() => setMenu("all")}>
+          <Link style={{ textDecoration: 'none' }} to='/allproducts' onClick={dropdown_toggle}>
+            All Products
           </Link>
-          {location.pathname === '/' && <hr />}
+          {location.pathname === '/allproducts' && <hr />}
         </li>
         <li onClick={() => setMenu("foods")}>
           <Link style={{ textDecoration: 'none' }} to='/foods' onClick={dropdown_toggle}>
@@ -62,12 +62,12 @@ const Navbar = () => {
           <img src={cart_icon} alt="" />
           <div className="nav-cart-count">{getTotalCartItems()}</div>
         </Link>
-        
+
         <Panel></Panel>
       </div>
 
     </div>
-    </>)
+  </>)
 }
 
 export default Navbar
